@@ -6,13 +6,3 @@
 .byebug_history
 .DS_Store
 .irbrc
-
-# Ignore all logfiles and tmp
-/consumer/log/*.log
-/provider/log/*.log
-/consumer/tmp/
-/provider/tmp/
-
-# Ignore pacts
-/consumer/spec/pacts/
-

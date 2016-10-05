@@ -1,0 +1,5 @@
+# https://github.com/realestate-com-au/pact/wiki/Verifying-pacts#using-rake-pactverify
+
+require 'pact/tasks'
+
+task :default => 'pact:verify'

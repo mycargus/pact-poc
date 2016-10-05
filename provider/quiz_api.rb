@@ -5,7 +5,7 @@ class QuizApi < Sinatra::Base
     "hello world"
   end
 
-  get "quizzes/" do
-    "all quizzes"
+  get "quizzes/1" do
+    # if you implement a database for Quiz API, then you'd want to query that db here
   end
 end

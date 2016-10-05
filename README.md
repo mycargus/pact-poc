@@ -1,6 +1,6 @@
 # pact-poc
 
-This is an example of the Pact gem in action.
+This is an example of the [Pact](https://github.com/realestate-com-au/pact) gem in action.
 
 Note this repo contains two separate projects with their own Gemfiles. In the
 real world, of course, the API service and any clients would normally reside

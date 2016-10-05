@@ -1,6 +1,11 @@
 # pact-poc
 
-This is an example of the [Pact](https://github.com/realestate-com-au/pact) gem in action.
+This is an example of using the [Pact](https://github.com/realestate-com-au/pact) gem for consumer-driven contract testing.
+
+If you're new to consumer-driven contract (CDC) testing, then I suggest the following resources:
+
+- [Official Pact documentation](https://docs.pact.io/)
+- [Martin Fowler's article on CDC](http://martinfowler.com/articles/consumerDrivenContracts.html#Consumer-drivenContracts)
 
 Note this repo contains two separate projects with their own Gemfiles. In the
 real world, of course, the API service and any clients would normally reside
@@ -53,4 +58,9 @@ This is useful too: `./provider/reports/pacts/help.md`.
 Open `./provider/quiz_api.rb`. See the two defined routes? Try adding an RSpec
 specification to the consumer that will generate a pact against the `/` route.
 You can get this one to pass without a running database.
+
+## Additional Info
+
+Pact has [Javascript](https://github.com/pact-foundation/pact-js/), Go, Swift, and .NET libraries too, among others. See [https://docs.pact.io/](https://docs.pact.io/) for details.
+
 
